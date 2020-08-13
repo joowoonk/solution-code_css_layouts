@@ -143,6 +143,10 @@ h3 {
   padding-bottom: 1%;
   font-size: 0.9rem;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 h2 {
   font-size: 1.2rem;
@@ -166,7 +170,6 @@ nav {
   margin: 0 6%;
 }
 nav a {
-  text-decoration: none;
   display: flex;
   font-size: 1.5rem;
   color: black;
@@ -195,12 +198,31 @@ nav a {
   font-size: 3rem;
   margin-bottom: 4%;
 }
+.centered button {
+  background-color: white;
+}
 .centered button a {
-  font-size: 1.5rem;
-  text-decoration: none;
+  font-size: 1.2rem;
+
   color: black;
 }
 
-#contact {
-  text-align: center;
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1%;
+}
+.project {
+  margin: 1%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+footer button {
+  font-size: 1.5rem;
 }
